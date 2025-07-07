@@ -39,7 +39,7 @@ The app follows the **MVVM architecture** with clean separation of concerns betw
 - Minimum SDK: **24**
 - Kotlin **1.9.0**
 
-### 🛠 Build Steps
+### Build Steps
 
 1. Clone the project:
    ```bash

@@ -39,40 +39,6 @@ class MainActivity : ComponentActivity() {
                     CustomerList(viewModel = viewModel)
                 }
             }
-
-
-/*
-            val navController = rememberNavController()
-            val viewModel : CustomerViewModel = hiltViewModel()
-
-            NavHost(navController = navController, startDestination = "form"){
-                composable("form"){ CustomerForm(viewModel = viewModel, navController = navController)}
-                composable("customerList"){ CustomerList(viewModel = viewModel)}
-            }*/
-            /*CustomerAppTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
-                }
-            }*/
         }
-    }
-}
-
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    CustomerAppTheme {
-        Greeting("Android")
     }
 }

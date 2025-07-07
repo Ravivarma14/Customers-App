@@ -41,8 +41,7 @@ The app follows the **MVVM architecture** with clean separation of concerns betw
 
 1. Clone the project:
    ```bash
-   git clone https://github.com/yourusername/customer-manager-app.git
-
+   git clone https://github.com/Ravivarma14/Customers-App.git
 2. Open the project in Android Studio.
 
 3. Sync Gradle and build the project.
